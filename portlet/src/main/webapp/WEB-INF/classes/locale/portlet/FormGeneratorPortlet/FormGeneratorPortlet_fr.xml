@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bundle>
+  <UIFormGeneratorTabPane>
+    <label>
+      <UIFormGeneratorGeneralTab>Général</UIFormGeneratorGeneralTab>
+      <FormGeneratorName>Nom</FormGeneratorName>
+      <UIFormGeneratorNodetypeFormSelectBox>Type de contenu</UIFormGeneratorNodetypeFormSelectBox>
+      <UIFormGeneratorDescriptionFormWYSIWYGInput>Description</UIFormGeneratorDescriptionFormWYSIWYGInput>
+      <UIFormGeneratorIconFormUploadInput>Icône</UIFormGeneratorIconFormUploadInput>
+      <UIFormGeneratorDnDTab>Constructeur de formulaire</UIFormGeneratorDnDTab>
+      <UIFormGeneratorOptionsTab>Options</UIFormGeneratorOptionsTab>
+      <UIFormGeneratorVoteFormCheckboxInput>Activer le vote</UIFormGeneratorVoteFormCheckboxInput>
+      <UIFormGeneratorCommentFormCheckboxInput>Activer les commentaires</UIFormGeneratorCommentFormCheckboxInput>
+    </label>
+    <action>
+      <Save>Enregistrer</Save>
+      <Reset>Réinitialiser</Reset>
+    </action>
+    <msg>
+      <register-failed>L'enregistrement de ce type de contenu a échoué, soit il existe déjà, soit les données entrées ne sont pas valides.</register-failed>
+      <AddNewsSuccessful>Le formulaire {0} a été créé avec succès.</AddNewsSuccessful>
+      <duplicate-name>Le champ Nom du Label est dupliqué. Veuillez en saisir un autre.</duplicate-name>
+      <select-value-empty>Les valeurs par défaut pour les liste de sélection ne doivent pas être vides. Veuillez saisir une valeur.</select-value-empty>
+      <input-only-special-characters>Le champ Label doit être au format alphanumérique.</input-only-special-characters>
+    </msg>
+  </UIFormGeneratorTabPane>
+  <FormGeneratorDialog>
+    <label>
+      <Download>Télécharger ce document</Download>
+      <remove>Supprimer</remove>
+    </label>
+  </FormGeneratorDialog>
+  <ECMNameValidator>
+    <msg>
+      <Invalid-char>Caractères invalides détectés dans le champ '{0}'.</Invalid-char>
+    </msg>
+  </ECMNameValidator>
+</bundle>
